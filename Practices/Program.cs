@@ -37,6 +37,9 @@
             // Sum of Most frequent Vowel and Consonant
             Console.WriteLine(MostFrequentVowelConsonant.Solve("aeiaeia"));
 
+            // Vowel Spell Checker
+            VowelSpellchecker.Solve(["KiTe", "kite", "hare", "Hare"], ["kite", "Kite", "KiTe", "Hare", "HARE", "Hear", "hear", "keti", "keet", "keto"]);
+
 
             // Exit
             Console.ReadKey();
