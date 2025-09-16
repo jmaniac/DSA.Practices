@@ -1,4 +1,7 @@
-﻿namespace Practices
+﻿using Practices.Problems;
+using Practises.Common.Extensions;
+
+namespace Practices
 {
     internal class Program
     {
@@ -39,6 +42,12 @@
 
             // Vowel Spell Checker
             VowelSpellchecker.Solve(["KiTe", "kite", "hare", "Hare"], ["kite", "Kite", "KiTe", "Hare", "HARE", "Hear", "hear", "keti", "keet", "keto"]);
+
+
+            // Replace Non-Coprime Numbers in Array
+            //Console.WriteLine(ReplaceNonCoprimes.Solve([517, 11, 121, 517, 3, 51, 3, 1887, 5]).AsString());
+            //Console.WriteLine(ReplaceNonCoprimes.Solve([31, 97561, 97561, 97561, 97561, 97561, 97561, 97561, 97561]).AsString());
+            Console.WriteLine(ReplaceNonCoprimes.Solve([8303, 361, 8303, 361, 437, 361, 8303, 8303, 8303, 6859, 19, 19, 361, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 1271, 31, 961, 31, 7, 2009, 7, 2009, 2009, 49, 7, 7, 8897, 1519, 31, 1519, 217]).AsString());
 
 
             // Exit

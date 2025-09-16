@@ -2,4 +2,5 @@
   <Project Path="Practices.Algorithms/Practices.Algorithms.csproj" Id="9aa57854-12cd-4b75-ba90-55c87be250ae" />
   <Project Path="Practices.Benchmark.Runner/Practices.Benchmark.Runner.csproj" Id="6a5961f4-0782-46ec-a28a-749f2269ab8f" />
   <Project Path="Practices/Practices.Problems.csproj" />
+  <Project Path="Practises.Common/Practises.Common.csproj" Id="6e5df212-8195-489c-a9e5-7bcbaaa47a9c" />
 </Solution>

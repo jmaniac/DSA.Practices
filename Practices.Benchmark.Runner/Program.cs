@@ -1,5 +1,5 @@
 ﻿using Practices.Algorithms.Sorting;
-using Practices.Algorithms.Utils;
+using Practises.Common.Extensions;
 
 namespace Practices.Benchmark.Runner
 {
