@@ -49,6 +49,12 @@ namespace Practices
             //Console.WriteLine(ReplaceNonCoprimes.Solve([31, 97561, 97561, 97561, 97561, 97561, 97561, 97561, 97561]).AsString());
             Console.WriteLine(ReplaceNonCoprimes.Solve([8303, 361, 8303, 361, 437, 361, 8303, 8303, 8303, 6859, 19, 19, 361, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 70121, 1271, 31, 961, 31, 7, 2009, 7, 2009, 2009, 49, 7, 7, 8897, 1519, 31, 1519, 217]).AsString());
 
+            // Largest Area Triangle
+            var largestArea = new LargestAreaTriangle().LargestTriangleArea([[1, 0], [0, 0], [0, 1]]);
+
+            // Water Bottles
+            var numWaterBottles = new WaterBottles().NumWaterBottles(9, 3);
+            numWaterBottles = new WaterBottles().NumWaterBottles(15, 4);
 
             // Exit
             Console.ReadKey();
