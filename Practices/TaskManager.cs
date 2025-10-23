@@ -32,7 +32,7 @@
             {
                 task.Priority = newPriority;
 
-                PriorityQueue.Enqueue(task, task);
+                //PriorityQueue.Enqueue(task, task);
             }
         }
 
@@ -44,22 +44,22 @@
             }
         }
 
-        public int ExecTop()
-        {
-            while (PriorityQueue.Count > 0)
-            {
-                var assignedTask = PriorityQueue.Dequeue();
-                if (Tasks.ContainsKey(assignedTask.TaskId))
-                {
-                    var task = Tasks[assignedTask.TaskId];
-                    if (assignedTask.UserId == userId && currPriority == priority)
-                    {
-                        Tasks.Remove(taskId);
-                        return userId;
-                    }
-                }
-            }
-        }
+        //public int ExecTop()
+        //{
+        //    while (PriorityQueue.Count > 0)
+        //    {
+        //        var assignedTask = PriorityQueue.Dequeue();
+        //        if (Tasks.ContainsKey(assignedTask.TaskId))
+        //        {
+        //            var task = Tasks[assignedTask.TaskId];
+        //            if (assignedTask.UserId == userId && currPriority == priority)
+        //            {
+        //                Tasks.Remove(taskId);
+        //                return userId;
+        //            }
+        //        }
+        //    }
+        //}
 
         public class PriorityTask : IComparable<PriorityTask>
         {
