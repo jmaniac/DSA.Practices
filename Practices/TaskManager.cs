@@ -32,7 +32,7 @@
             {
                 task.Priority = newPriority;
 
-                PriorityQueue.Enqueue(task, task);
+                //PriorityQueue.Enqueue(task, task);
             }
         }
 
@@ -52,13 +52,14 @@
                 if (Tasks.ContainsKey(assignedTask.TaskId))
                 {
                     var task = Tasks[assignedTask.TaskId];
-                    if (assignedTask.UserId == userId && currPriority == priority)
-                    {
-                        Tasks.Remove(taskId);
-                        return userId;
-                    }
+                    //if (assignedTask.UserId == userId && currPriority == priority)
+                    //{
+                    //    Tasks.Remove(taskId);
+                    //    return userId;
+                    //}
                 }
             }
+            return Tasks.Count;
         }
 
         public class PriorityTask : IComparable<PriorityTask>
