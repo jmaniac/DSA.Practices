@@ -56,6 +56,8 @@ namespace Practices
             var numWaterBottles = new WaterBottles().NumWaterBottles(9, 3);
             numWaterBottles = new WaterBottles().NumWaterBottles(15, 4);
 
+            Console.WriteLine(new CheckDigitsEqualAfterOperations().HasSameDigits("3902"));
+
             // Make Sum Divisible by P
             var removals = new MakeSumDivisibleByP().MinSubarray([6, 3, 5, 2], 9);
 
